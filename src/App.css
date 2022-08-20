@@ -100,10 +100,21 @@ div.button, div.checker, div.radio, div.selector, div.uploader {
   box-shadow: 0 1px 15px rgba(0,0,0,0.04), 0 1px 6px rgba(0,0,0,0.04);
 }
 .todo-item button {
-  background-color: DodgerBlue;
+  background-color: rgb(255, 30, 49);
   border: none;
   color: white;
   padding: 3px 5px;
+  font-size: 15px;
+  border-radius:4px;
+  cursor: pointer;
+  margin-right:0.25cm;
+  outline:none;
+}
+.todo-item button~button {
+  background-color: greenyellow;
+  border: none;
+  color: white;
+  padding: 3.5px 3.5px;
   font-size: 15px;
   border-radius:4px;
   cursor: pointer;
